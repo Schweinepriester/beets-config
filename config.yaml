@@ -1,0 +1,19 @@
+directory: ~/beets/bib
+library: ~/beets/lib/musiclibrary.blb
+plugins: fetchart lastgenre embedart zero
+import:
+    copy: yes
+    write: yes
+    resume: ask
+    quiet_fallback: skip
+    timid: no
+    log: beetslog.txt
+fetchart: 
+    auto: yes
+    minwidth: 750 
+    maxwidth: 1500
+    enforce_ratio: yes
+zero:
+    fields: comments
+embedart:
+    auto: yes
