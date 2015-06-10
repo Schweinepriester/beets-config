@@ -1,22 +1,30 @@
-directory: ~/beets/bib
-library: ~/beets/lib/musiclibrary.blb
+# directory and library should be in seperate files, if possible, see #6
+# for the time being we have to switch i guess
+# 
+# @zabelhaft
+# directory: ~/beets/bib
+# library: ~/beets/lib/musiclibrary.blb
+#
+# @Schweinepriester
+directory: F:\Audio\Mediathek\Musik
+library: E:\beets\musiclibrary.db
 plugins: fetchart lastgenre embedart zero inline
 import:
-    copy: yes
-    write: yes
-    resume: ask
-    quiet_fallback: skip
-    timid: no
+    copy: yes 				# default
+    write: yes 				# default
+    resume: ask 			# default
+    quiet_fallback: skip 	# default
+    timid: no 				# default
     log: beetslog.txt
 fetchart: 
-    auto: yes
-    minwidth: 750 
+    auto: yes				# default
+    minwidth: 750
     maxwidth: 1500
     enforce_ratio: yes
 zero:
     fields: comments
 embedart:
-    auto: yes
+    auto: yes				# default
 album_fields:
     bitrate: |
         total = 0
@@ -24,7 +32,7 @@ album_fields:
             total += item.bitrate
         return total / len(items)
 
-## dependencies
-## fetchart: pip install requests
-## lastgenre: pip install pylast
-## embedart: sudo port install ImageMagick
+# dependencies - should be mentioned on top and ideal as one "pip install" available
+# fetchart: pip install requests
+# lastgenre: pip install pylast
+# embedart: sudo port install ImageMagick
