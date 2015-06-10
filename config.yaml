@@ -1,4 +1,4 @@
-# directory and library should be in seperate files, if possible, see #6
+﻿# directory and library should be in seperate files, if possible, see #6
 # for the time being we have to switch i guess
  
 # @zabelhaft
@@ -38,4 +38,5 @@ album_fields:
 # dependencies - should be mentioned on top and ideal as one "pip install" available
 # fetchart: pip install requests
 # lastgenre: pip install pylast
-# embedart: sudo port install ImageMagick
+# embedart:
+#  OS X: sudo port install ImageMagick
