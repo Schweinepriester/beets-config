@@ -1,6 +1,6 @@
 directory: ~/beets/bib
 library: ~/beets/lib/musiclibrary.blb
-plugins: fetchart lastgenre embedart zero
+plugins: fetchart lastgenre embedart zero inline
 import:
     copy: yes
     write: yes
@@ -17,6 +17,12 @@ zero:
     fields: comments
 embedart:
     auto: yes
+album_fields:
+    bitrate: |
+        total = 0
+        for item in items:
+            total += item.bitrate
+        return total / len(items)
 
 ## dependencies
 ## fetchart: pip install requests
