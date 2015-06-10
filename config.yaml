@@ -17,3 +17,8 @@ zero:
     fields: comments
 embedart:
     auto: yes
+
+## dependencies
+## fetchart: pip install requests
+## lastgenre: pip install pylast
+## embedart: sudo port install ImageMagick
