@@ -40,4 +40,5 @@ album_fields:
         total = 0
         for item in items:
             total += item.bitrate
-        return total / len(items)
+        bitrate = total / len(items)
+        return str(bitrate)[:3]
