@@ -1,14 +1,21 @@
 ﻿# directory and library should be in seperate files, if possible, see #6
 # for the time being we have to switch
+
+# dependencies - ideal as one "pip install" available
+# fetchart: pip install requests
+# lastgenre: pip install pylast
+# embedart:
+#  OS X: sudo port install ImageMagick
  
+###choose wisely###
 # @zabelhaft
 # directory: ~/beets/bib
 # library: ~/beets/lib/musiclibrary.blb
 
 # @Schweinepriester
 # directory: F:\Audio\Mediathek\Musik
-directory: E:\beets\test_mediafolder
-library: E:\beets\musiclibrary.db
+# directory: E:\beets\test_mediafolder
+# library: E:\beets\musiclibrary.db
 
 ### start identical config ###
 plugins: fetchart lastgenre embedart zero inline
@@ -34,9 +41,3 @@ album_fields:
         for item in items:
             total += item.bitrate
         return total / len(items)
-
-# dependencies - should be mentioned on top and ideal as one "pip install" available
-# fetchart: pip install requests
-# lastgenre: pip install pylast
-# embedart:
-#  OS X: sudo port install ImageMagick
