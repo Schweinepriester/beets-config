@@ -19,6 +19,8 @@
 
 ### start identical config ###
 plugins: fetchart lastgenre embedart zero inline
+paths:
+    default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$track $title
 import:
     copy: yes # default
     write: yes # default
@@ -44,3 +46,5 @@ album_fields:
             total += item.bitrate
         bitrate = total / len(items)
         return str(bitrate)[:3]
+item_fields:
+    multidisc: 1 if disctotal > 1 else 0
