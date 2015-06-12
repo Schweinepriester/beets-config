@@ -21,6 +21,14 @@
 plugins: fetchart lastgenre embedart zero inline
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$track $title
+replace: #default
+    '[\\/]': _
+    '^\.': _
+    '[\x00-\x1f]': _
+    '[<>:"\?\*\|]': _
+    '\.$': _
+    '\s+$': ''
+    '^\s+': ''
 import:
     copy: yes # default
     write: yes # default
