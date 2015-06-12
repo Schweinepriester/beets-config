@@ -32,6 +32,7 @@ fetchart:
     maxwidth: 1500
     enforce_ratio: yes
     remote_priority: no #default
+    sources: coverart itunes albumart amazon google wikipedia #default
 zero:
     fields: comments
 embedart:
