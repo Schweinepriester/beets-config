@@ -1,1 +1,11 @@
+Multi-Disc releases:
+  Subfolder Name:
+    CDX #not DiscX, MediaX, SideX...
+    
+Multi-Artist releases:
+  Artist and albumartist schould be the same to accomodate iTunes behaviour during import #to test
+  Featured Artist should be moved to track title
+  If there are 2 or more equal artists (like split-EPs) every Artist should be named in the Folder as well as the artist field ()
+  
 
+  
