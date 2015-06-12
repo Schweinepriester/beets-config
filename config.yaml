@@ -54,7 +54,7 @@ album_fields:
             total += item.bitrate
         bitrate = total / len(items)
         return str(bitrate)[:3]
-format_album: Musik: $albumartist - $album ($genre - $year) @ $bitrate kBit/s
+format_album: 'Musik: $albumartist - $album ($genre - $year) @ $bitrate kBit/s'
 per_disc_numbering: yes
 item_fields:
     multidisc: 1 if disctotal > 1 else 0
