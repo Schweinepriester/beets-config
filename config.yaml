@@ -23,7 +23,7 @@ paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$track $title
 replace: #default
     '[\\/]': _
-    '^\.': _
+    '^\.': ''
     '[\x00-\x1f]': _
     '[<>:"\?\*\|]': _
     '\.$': _
