@@ -1,5 +1,5 @@
 # dependencies - ideal as one "pip install" available
-# fetchart: pip install requests
+# fetchart, lyrics : pip install requests
 # lastgenre: pip install pylast
 # embedart:
 #  OS X: sudo port install ImageMagick
@@ -18,7 +18,7 @@
 # library: E:\beets\musiclibrary.db
 
 ### start actual config ###
-plugins: fetchart lastgenre embedart zero inline
+plugins: fetchart lastgenre embedart zero inline lyrics
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$track $title
 replace:
@@ -47,6 +47,9 @@ zero:
     fields: comments
 embedart:
     auto: yes # default
+lyrics:
+    auto: yes # defalt
+    force: yes
 album_fields:
     bitrate: |
         total = 0
