@@ -1,12 +1,12 @@
-﻿# directory and library should be in seperate files, if possible, see #6
-# for the time being we have to switch
-
 # dependencies - ideal as one "pip install" available
 # fetchart: pip install requests
 # lastgenre: pip install pylast
 # embedart:
 #  OS X: sudo port install ImageMagick
- 
+
+# directory and library should be in seperate files, if possible, see #6
+# for the time being we have to switch
+
 ### choose wisely ###
 # @zabelhaft
 # directory: ~/beets/bib
@@ -17,7 +17,7 @@
 # directory: E:\beets\test_mediafolder
 # library: E:\beets\musiclibrary.db
 
-### start identical config ###
+### start actual config ###
 plugins: fetchart lastgenre embedart zero inline
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$track $title
