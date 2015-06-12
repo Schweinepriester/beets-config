@@ -20,7 +20,7 @@
 ### start actual config ###
 plugins: fetchart lastgenre embedart zero inline lyrics
 paths:
-    default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$track $title
+    default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$albumartist - $album%aunique{} - $track $title
 replace:
     '[\\/]': _ #default
     '^\.': ''
@@ -48,7 +48,7 @@ zero:
 embedart:
     auto: yes # default
 lyrics:
-    auto: yes # defalt
+    auto: yes # default
     force: yes
 album_fields:
     bitrate: |
