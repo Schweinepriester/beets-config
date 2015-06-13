@@ -1,6 +1,7 @@
 # dependencies - ideal as one "pip install" available
 # fetchart, lyrics : pip install requests
 # lastgenre: pip install pylast
+# discogs: pip install discogs-client #user account needed
 # embedart:
 #  OS X: sudo port install ImageMagick
 
@@ -18,7 +19,7 @@
 # library: E:\beets\musiclibrary.db
 
 ### start actual config ###
-plugins: fetchart lastgenre embedart zero inline lyrics ftintitle
+plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$albumartist - $album%aunique{} - $track $title
 replace:
