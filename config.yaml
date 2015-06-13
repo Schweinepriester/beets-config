@@ -19,7 +19,7 @@
 # library: E:\beets\musiclibrary.db
 
 ### start actual config ###
-plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs
+plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfilename
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$albumartist - $album%aunique{} - $track $title
 replace:
