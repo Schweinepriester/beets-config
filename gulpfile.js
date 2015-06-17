@@ -17,7 +17,7 @@ gulp.task('build', function() {
     var replace = require('gulp-replace');
     var configOwnObject = YAML.load(paths.configOwn);
 
-    console.log(configOwnObject);
+    // console.log(configOwnObject); // TODO remove
 
     return gulp.src(paths.configMaster)
         .pipe(replace(/#@.*@/g, function(match){
