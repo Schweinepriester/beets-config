@@ -1,0 +1,30 @@
+{
+  "name": "beets-config",
+  "version": "0.0.1",
+  "description": "Config for https://github.com/sampsyo/beets",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schweinepriester/beets-config.git"
+  },
+  "keywords": [
+    "beets",
+    "config",
+    "music"
+  ],
+  "author": "Marvin Schwickerath, Kai Hollberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Schweinepriester/beets-config/issues"
+  },
+  "homepage": "https://github.com/Schweinepriester/beets-config#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-replace": "^0.5.3",
+    "npm-check-updates": "^1.5.1",
+    "yamljs": "^0.2.3"
+  }
+}

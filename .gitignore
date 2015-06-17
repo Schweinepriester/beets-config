@@ -1,3 +1,10 @@
+# beets
 discogs_token.json
 state.pickle
 beetslog.txt
+
+# node
+node_modules
+
+# idea
+.idea
