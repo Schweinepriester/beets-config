@@ -5,21 +5,9 @@
 # embedart:
 #  OS X: sudo port install ImageMagick
 
-# TODO remove!
-### choose wisely ###
-# @zabelhaft
-# directory: ~/beets/bib
-# library: ~/beets/lib/musiclibrary.blb
-
-# @Schweinepriester
-#@test@
-# directory: F:\Audio\Mediathek\Musik
-# directory: E:\beets\test_mediafolder
-# library: E:\beets\musiclibrary.db
-
-# TODO uncomment
-# directory: #@directory@
-# library: #@library@
+### replace ###
+#directory: @directory@
+#library: @library@
 
 ### start actual config ###
 plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfilename

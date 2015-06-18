@@ -17,15 +17,16 @@ gulp.task('build', function() {
     var replace = require('gulp-replace');
     var configOwnObject = YAML.load(paths.configOwn);
 
-    // console.log(configOwnObject); // TODO remove
-
     return gulp.src(paths.configMaster)
-        .pipe(replace(/#@.*@/g, function(match){
+        .pipe(replace(/#.*@.*@/g, function(match){
             var output = match;
-            var cleanMatch = match.replace(/@/g, '').replace('#','');
+            var tempSplit = match.split('@', 2);
+            var cleanMatch = tempSplit[1] //.replace(/@/g, '');
+            var yamlValue = tempSplit[0].replace('#','');
             // console.log(cleanMatch); // TODO remove
+            // console.log(yamlValue); // TODO remove
             if(configOwnObject.hasOwnProperty(cleanMatch)){
-                output = configOwnObject[cleanMatch];
+                output = yamlValue + configOwnObject[cleanMatch];
             }
             // console.log(output); // TODO remove
             return output;

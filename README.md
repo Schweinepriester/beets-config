@@ -6,3 +6,10 @@ Config for https://github.com/sampsyo/beets
 
 - `beets import somefolderorarchiv`
 - `beets ls -a 'added:yyyy-mm-dd'`
+
+## Install
+
+- Install beets
+- TODO
+- ???
+- Profit!
