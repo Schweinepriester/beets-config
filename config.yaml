@@ -10,7 +10,8 @@
 #library: @library@
 
 ### start actual config ###
-plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfilename
+plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfilename removeartfile
+#pluginpath: @pluginpath@
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$albumartist - $album%aunique{} - $track $title
 replace:
