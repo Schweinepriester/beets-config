@@ -42,6 +42,7 @@ embedart:
 lyrics:
     auto: yes # default
     force: yes
+    #google_API_key: @google_API_key@
 album_fields:
     bitrate: |
         total = 0

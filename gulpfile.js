@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var paths = {
     configMaster: './config.yaml',
     configOwn: '../customconfig.yaml',
-    output: '../output'
+    output: '../beetsdir'
 };
 
 gulp.task('default', ['build']);
@@ -23,12 +23,9 @@ gulp.task('build', function() {
             var tempSplit = match.split('@', 2);
             var cleanMatch = tempSplit[1] //.replace(/@/g, '');
             var yamlValue = tempSplit[0].replace('#','');
-            // console.log(cleanMatch); // TODO remove
-            // console.log(yamlValue); // TODO remove
             if(configOwnObject.hasOwnProperty(cleanMatch)){
                 output = yamlValue + configOwnObject[cleanMatch];
             }
-            // console.log(output); // TODO remove
             return output;
         }))
         .pipe(gulp.dest(paths.output));
