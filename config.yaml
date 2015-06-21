@@ -18,7 +18,7 @@ replace:
     '[\\/]': _ #default
     '^\.': ''
     '[\x00-\x1f]': _ #default
-    '[<>:"\?\*\|]': _ #default
+    '[<>:"\?\*\|]': ''
     '\.$': _ #default
     '\s+$': '' #default
     '^\s+': '' #default
