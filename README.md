@@ -4,8 +4,8 @@ Config for https://github.com/sampsyo/beets
 
 ## currently used commands:
 
-- `beets import somefolderorarchiv`
-- `beets ls -a 'added:yyyy-mm-dd'`
+- `beet import somefolderorarchiv`
+- `beet ls -a 'added:yyyy-mm-dd'`
 
 ## Install
 
