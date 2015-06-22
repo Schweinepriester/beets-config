@@ -2,7 +2,7 @@
 
 Config for https://github.com/sampsyo/beets
 
-## currently used commands:
+## Currently used commands
 
 - `beet import somefolderorarchiv`
 - `beet ls -a 'added:yyyy-mm-dd'`
