@@ -10,7 +10,7 @@ Config for https://github.com/sampsyo/beets
 ## Install
 
 - [Install beets](http://beets.readthedocs.org/page/guides/main.html#installing)
-- Install Node.js (including npm!)
+- Install Node.js (which includes npm)
 - Download beets-config
 - Install dependencies
 - Run `npm install`
