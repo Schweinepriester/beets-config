@@ -13,6 +13,10 @@ Config for https://github.com/sampsyo/beets
 - Install Node.js (including npm!)
 - Download beets-config
 - Install dependencies
+- Run `npm install`
+- Create `../customconfig.yaml` and configure all properties you want to replace, probably at least `directory` and `library`
+- Run `gulp`
+- Set `BEETSDR` to the created folder `../beetsdir`
 - TODO
 - ???
 - Profit!
