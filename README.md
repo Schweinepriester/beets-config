@@ -16,7 +16,7 @@ Config for https://github.com/sampsyo/beets
 - Run `npm install`
 - Create `../customconfig.yaml` and configure all properties you want to replace, probably at least `directory` and `library`
 - Run `gulp`
-- Set `BEETSDR` to the created folder `../beetsdir`
+- Set `BEETSDiR` to the created folder `../beetsdir`
 - TODO
 - ???
 - Profit!
