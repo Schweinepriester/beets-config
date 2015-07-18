@@ -32,7 +32,7 @@ import:
 fetchart: 
     auto: yes # default
     minwidth: 750
-    maxwidth: 1500
+    maxwidth: 2000
     enforce_ratio: yes
     remote_priority: yes
     sources: coverart itunes albumart amazon google wikipedia #default
