@@ -41,7 +41,7 @@ zero:
 embedart:
     auto: yes # default
 ftintitle:
-	auto: yes # default
+    auto: yes # default
 lyrics:
     auto: yes # default
     force: yes
