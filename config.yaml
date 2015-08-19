@@ -40,6 +40,8 @@ zero:
     fields: comments
 embedart:
     auto: yes # default
+ftintitle:
+	auto: yes # default
 lyrics:
     auto: yes # default
     force: yes
