@@ -10,7 +10,7 @@
 #library: @library@
 
 ### start actual config ###
-plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfilename removeartfile
+plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfilename
 #pluginpath: @pluginpath@
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$albumartist - $album%aunique{} - $track $title
@@ -35,11 +35,12 @@ fetchart:
     maxwidth: 2000
     enforce_ratio: yes
     remote_priority: yes
-    sources: coverart itunes albumart amazon google wikipedia #default
+    sources: coverart itunes amazon albumart google
 zero:
     fields: comments
 embedart:
     auto: yes # default
+    remove_art_file: yes
 ftintitle:
     auto: yes # default
 lyrics:
