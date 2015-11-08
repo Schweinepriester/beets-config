@@ -11,16 +11,21 @@ Config for https://github.com/sampsyo/beets
 
 1. [Install beets](http://beets.readthedocs.org/page/guides/main.html#installing)
 1. [Install Node.js (which includes npm)](https://nodejs.org)
-1. Create a folder somewhere, e.g. `beets`
-1. Clone or [download](https://github.com/Schweinepriester/beets-config/releases) beets-config and put it in a folder (e.g. `beets-config`) in the newly created folder `beets`
+1. Create a folder somewhere, e.g. `…/beets`
+1. Clone or [download](https://github.com/Schweinepriester/beets-config/releases) beets-config and put it in a folder (e.g. `beets-config`) in the newly created folder `…/beets`
+1. Open your favorite shell (bash, powershell, …) and navigate to `…/beets/beets-config`)
 1. Install dependencies
   - `pip install -r beets-config_requirements.txt`
 1. Run `npm install`
-1. Create `../customconfig.yaml` and configure all properties you want to replace, probably at least `directory` and `library`
-1. Run `gulp`
-1. [Set `BEETSDIR` to the created folder `../beetsdir`](https://beets.readthedocs.org/en/stable/reference/config.html#configuration-location)
+1. Create `…/beets/customconfig.yaml` and configure all properties you want to replace, probably at least `directory` and `library`, e.g.
+
+    ```
+    directory: F:\Audio\Mediathek\Musik
+    library: E:\beets\musiclibrary.db
+    ```
+
+1. Run `gulp` (in `…/beets/beets-config`)
+1. [Set `BEETSDIR` to the created folder `…/beets/beetsdir`](https://beets.readthedocs.org/en/stable/reference/config.html#configuration-location)
   - Windows: Set as user variable
 1. Check loaded config: Type `beet config -p` to see the path on your system
-1. TODO
-1. ???
-1. Profit!
+1. If it prints the path to `…/beets/beetsdir/config.yaml` you are all set! :)
