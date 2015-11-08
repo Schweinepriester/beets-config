@@ -9,7 +9,7 @@ Config for https://github.com/sampsyo/beets
 
 ## Install
 
-1. [Install beets](http://beets.readthedocs.org/page/guides/main.html#installing)
+1. [Install beets](http://beets.readthedocs.org/page/guides/main.html#installing) (we also need `pip`)
 1. [Install Node.js (which includes npm)](https://nodejs.org)
 1. Create a folder somewhere, e.g. `…/beets`
 1. Clone or [download](https://github.com/Schweinepriester/beets-config/releases) beets-config and put it in a folder (e.g. `beets-config`) in the newly created folder `…/beets`
