@@ -16,6 +16,7 @@ Config for https://github.com/sampsyo/beets
 1. Open your favorite shell (bash, powershell, …) and navigate to `…/beets/beets-config`)
 1. Install dependencies for several beets plugins: `pip install -r beets-config_requirements.txt`
 1. Run `npm install`
+1. [Install gulp globally: `npm install --global gulp`](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#1-install-gulp-globally)
 1. Create `…/beets/customconfig.yaml` and configure all properties you want to replace, probably at least `directory` and `library`, e.g.
 
     ```
