@@ -1,0 +1,3 @@
+requests # fetchart, lyrics
+pylast # lastgenre
+discogs-client # discogs

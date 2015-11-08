@@ -1,9 +1,8 @@
-# dependencies - ideal as one "pip install" available
-# fetchart, lyrics : pip install requests
-# lastgenre: pip install pylast
-# discogs: pip install discogs-client #user account needed
-# embedart:
-#  OS X: sudo port install ImageMagick
+# Dependencies 
+# 1. See beets-config_requirements.txt - Install: 'pip install -r beets-config_requirements.txt'
+# 2. EmbedArt & FetchArt need ImageMagick
+#    - OS X: sudo port install ImageMagick
+#    - Windows: Download and install latest from http://imagemagick.org
 
 ### replace ###
 #directory: @directory@
