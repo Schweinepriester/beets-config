@@ -14,8 +14,7 @@ Config for https://github.com/sampsyo/beets
 1. Create a folder somewhere, e.g. `…/beets`
 1. Clone or [download](https://github.com/Schweinepriester/beets-config/releases) beets-config and put it in a folder (e.g. `beets-config`) in the newly created folder `…/beets`
 1. Open your favorite shell (bash, powershell, …) and navigate to `…/beets/beets-config`)
-1. Install dependencies
-  - `pip install -r beets-config_requirements.txt`
+1. Install dependencies for several beets plugins: `pip install -r beets-config_requirements.txt`
 1. Run `npm install`
 1. Create `…/beets/customconfig.yaml` and configure all properties you want to replace, probably at least `directory` and `library`, e.g.
 
