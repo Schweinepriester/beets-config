@@ -10,8 +10,9 @@ Config for https://github.com/sampsyo/beets
 ## Install
 
 1. [Install beets](http://beets.readthedocs.org/page/guides/main.html#installing)
-1. Install Node.js (which includes npm)
-1. Download beets-config
+1. [Install Node.js (which includes npm)](https://nodejs.org)
+1. Create a folder somewhere, e.g. `beets`
+1. Clone or [download](https://github.com/Schweinepriester/beets-config/releases) beets-config and put it in a folder (e.g. `beets-config`) in the newly created folder `beets`
 1. Install dependencies
 1. Run `npm install`
 1. Create `../customconfig.yaml` and configure all properties you want to replace, probably at least `directory` and `library`
