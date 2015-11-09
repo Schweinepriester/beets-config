@@ -30,3 +30,7 @@ Config for https://github.com/sampsyo/beets
   - Windows: Set as user variable
 1. Check loaded config: Type `beet config -p` to see the path on your system
 1. If it prints the path to `…/beets/beetsdir/config.yaml` you are all set! :)
+1. Optional
+    1. Install `unrar` for extracting RAR-archives
+        - <http://www.rarlab.com/rar_add.htm>
+        - <https://rarfile.readthedocs.org/en/latest/faq.html#how-can-i-get-it-work-on-windows>
