@@ -1,3 +1,4 @@
 requests # fetchart, lyrics
 pylast # lastgenre
 discogs-client # discogs
+rarfile # for extracting rarfiles
