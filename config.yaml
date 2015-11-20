@@ -14,7 +14,7 @@ plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfi
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$albumartist - $album%aunique{} - $track $title
 replace:
-    '[\\/]': ''
+    '[\\/]': _ #default
     '^\.': ''
     '[\x00-\x1f]': _ #default
     '[<>:"\?\*\|]': ''
