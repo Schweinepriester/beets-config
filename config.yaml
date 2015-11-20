@@ -1,4 +1,7 @@
-# Dependencies 
+# beets-config
+# https://github.com/Schweinepriester/beets-config
+#
+# Dependencies
 # 1. See beets-config_requirements.txt - Install: 'pip install -r beets-config_requirements.txt'
 # 2. EmbedArt & FetchArt need ImageMagick
 #    - OS X: sudo port install ImageMagick
