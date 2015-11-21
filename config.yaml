@@ -47,7 +47,7 @@ ftintitle:
     auto: yes # default
 lyrics:
     auto: yes # default
-    force: yes
+    force: no # default 
     #google_API_key: @google_API_key@
 album_fields:
     bitrate: |
