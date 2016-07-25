@@ -1,6 +1,6 @@
 # beets-config
 
-Config for https://github.com/sampsyo/beets
+Config for https://github.com/beetbox/beets
 
 ## Currently used commands
 
