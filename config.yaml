@@ -59,3 +59,5 @@ format_album: 'Musik: $albumartist - $album ($genre - $year) @ $bitrate kBit/s'
 per_disc_numbering: yes
 item_fields:
     multidisc: 1 if disctotal > 1 else 0
+sort_album: added- albumartist+ album+
+

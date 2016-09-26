@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/Schweinepriester/beets-config#readme",
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-replace": "^0.5.4",
-    "npm-check-updates": "^1.5.1",
-    "yamljs": "^0.2.4"
+    "npm-check-updates": "^2.8.0",
+    "yamljs": "^0.2.8"
   }
 }
