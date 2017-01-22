@@ -12,7 +12,7 @@
 #library: @library@
 
 ### start actual config ###
-plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfilename edit
+plugins: fetchart lastgenre embedart zero inline lyrics ftintitle discogs fromfilename edit acousticbrainz
 #pluginpath: @pluginpath@
 paths:
     default: $albumartist/$album%aunique{}/%if{$multidisc,CD$disc/}$albumartist - $album%aunique{} - $track $title
@@ -60,4 +60,3 @@ per_disc_numbering: yes
 item_fields:
     multidisc: 1 if disctotal > 1 else 0
 sort_album: added- albumartist+ album+
-

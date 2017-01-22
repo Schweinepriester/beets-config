@@ -21,7 +21,7 @@ gulp.task('build', function() {
         .pipe(replace(/#.*@.*@/g, function(match){
             var output = match;
             var tempSplit = match.split('@', 2);
-            var cleanMatch = tempSplit[1] //.replace(/@/g, '');
+            var cleanMatch = tempSplit[1]; //.replace(/@/g, '');
             var yamlValue = tempSplit[0].replace('#','');
             if(configOwnObject.hasOwnProperty(cleanMatch)){
                 output = yamlValue + configOwnObject[cleanMatch];
