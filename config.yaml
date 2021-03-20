@@ -60,3 +60,9 @@ per_disc_numbering: yes
 item_fields:
     multidisc: 1 if disctotal > 1 else 0
 sort_album: added- albumartist+ album+
+match:
+    strong_rec_thresh: 0.001 # only 100 % automatically
+    preferred:
+        countries: ['XW|XE', 'US|DE']
+        media: ['Digital Media|CD']
+        original_year: yes
